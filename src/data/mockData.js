@@ -1,0 +1,170 @@
+// Mock data for the website
+
+export const services = [
+    {
+        id: 1,
+        title: 'تركيب إنترنت ألياف ضوئية',
+        description: 'خدمة تركيب وتفعيل الألياف الضوئية للمنازل والشركات بأعلى سرعات وأفضل جودة',
+        icon: 'wifi',
+    },
+    {
+        id: 2,
+        title: 'إعداد وضبط الرواتر',
+        description: 'إعداد وتكوين أجهزة الراوتر بشكل احترافي لضمان أفضل أداء وتغطية',
+        icon: 'router',
+    },
+    {
+        id: 3,
+        title: 'حلول إنترنت للمنازل والشركات',
+        description: 'باقات مخصصة تناسب احتياجات المنازل والشركات بجميع أحجامها',
+        icon: 'home',
+    },
+    {
+        id: 4,
+        title: 'دعم فني وصيانة',
+        description: 'دعم فني متواصل على مدار الساعة لحل جميع المشاكل التقنية',
+        icon: 'support',
+    },
+];
+
+export const packages = [
+    {
+        id: 1,
+        name: 'Fiber 100 Mbps',
+        speed: '100 Mbps',
+        price: 299,
+        features: [
+            'سرعة تحميل 100 ميجابت',
+            'مناسبة للاستخدام المنزلي',
+            'دعم فني مجاني',
+            'تركيب مجاني',
+        ],
+    },
+    {
+        id: 2,
+        name: 'Fiber 300 Mbps',
+        speed: '300 Mbps',
+        price: 499,
+        features: [
+            'سرعة تحميل 300 ميجابت',
+            'مناسبة للعائلات الكبيرة',
+            'دعم فني على مدار الساعة',
+            'تركيب مجاني',
+            'راوتر مجاني',
+        ],
+        popular: true,
+    },
+    {
+        id: 3,
+        name: 'Fiber 500 Mbps',
+        speed: '500 Mbps',
+        price: 699,
+        features: [
+            'سرعة تحميل 500 ميجابت',
+            'مناسبة للمكاتب الصغيرة',
+            'دعم فني VIP',
+            'تركيب مجاني',
+            'راوتر احترافي مجاني',
+        ],
+    },
+    {
+        id: 4,
+        name: 'Fiber 1 Gbps',
+        speed: '1 Gbps',
+        price: 999,
+        features: [
+            'سرعة تحميل 1 جيجابت',
+            'مناسبة للشركات والمكاتب الكبيرة',
+            'دعم فني VIP مخصص',
+            'تركيب احترافي مجاني',
+            'راوتر احترافي Wi-Fi 6',
+            'أولوية في الصيانة',
+        ],
+    },
+];
+
+export const routers = [
+    {
+        id: 1,
+        name: 'TP-Link Archer AX50',
+        wifiType: 'Wi-Fi 6',
+        coverage: 'حتى 150 متر مربع',
+        price: 1200,
+        image: '/router1.jpg',
+        features: [
+            'Wi-Fi 6 (802.11ax)',
+            'سرعة حتى 3 Gbps',
+            'تغطية واسعة',
+            '4 منافذ Gigabit',
+        ],
+    },
+    {
+        id: 2,
+        name: 'ASUS RT-AX55',
+        wifiType: 'Wi-Fi 6',
+        coverage: 'حتى 180 متر مربع',
+        price: 1500,
+        image: '/router2.jpg',
+        features: [
+            'Wi-Fi 6 (802.11ax)',
+            'AiProtection Pro',
+            'تقنية OFDMA',
+            'Dual Band',
+        ],
+    },
+    {
+        id: 3,
+        name: 'Xiaomi AX3000',
+        wifiType: 'Wi-Fi 6',
+        coverage: 'حتى 120 متر مربع',
+        price: 800,
+        image: '/router3.jpg',
+        features: [
+            'Wi-Fi 6',
+            'سعر اقتصادي',
+            'أداء ممتاز',
+            'Mesh Support',
+        ],
+    },
+    {
+        id: 4,
+        name: 'Netgear Nighthawk RAX40',
+        wifiType: 'Wi-Fi 6',
+        coverage: 'حتى 200 متر مربع',
+        price: 2000,
+        image: '/router4.jpg',
+        features: [
+            'Wi-Fi 6',
+            'تغطية واسعة جداً',
+            'أداء عالي',
+            'Beamforming+',
+        ],
+    },
+];
+
+export const features = [
+    {
+        id: 1,
+        title: 'سرعة فائقة',
+        description: 'استمتع بسرعات إنترنت تصل إلى 1 جيجابت في الثانية',
+        icon: 'rocket',
+    },
+    {
+        id: 2,
+        title: 'استقرار تام',
+        description: 'اتصال مستقر على مدار الساعة دون انقطاع',
+        icon: 'check-circle',
+    },
+    {
+        id: 3,
+        title: 'دعم فني متميز',
+        description: 'فريق دعم فني محترف متاح على مدار الساعة',
+        icon: 'headset',
+    },
+    {
+        id: 4,
+        title: 'تركيب سريع',
+        description: 'تركيب احترافي وسريع في جميع المناطق',
+        icon: 'zap',
+    },
+];
