@@ -24,9 +24,9 @@ const Navbar = () => {
             label: <Link to="/packages">الباقات</Link>,
         },
         {
-            key: '/routers',
+            key: '/offers',
             icon: <WifiOutlined />,
-            label: <Link to="/routers">الرواترات</Link>,
+            label: <Link to="/offers">عروض الاتصالات</Link>,
         },
         {
             key: '/contact',

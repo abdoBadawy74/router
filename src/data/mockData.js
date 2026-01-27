@@ -83,64 +83,6 @@ export const packages = [
     },
 ];
 
-export const routers = [
-    {
-        id: 1,
-        name: 'TP-Link Archer AX50',
-        wifiType: 'Wi-Fi 6',
-        coverage: 'حتى 150 متر مربع',
-        price: 1200,
-        image: '/router1.jpg',
-        features: [
-            'Wi-Fi 6 (802.11ax)',
-            'سرعة حتى 3 Gbps',
-            'تغطية واسعة',
-            '4 منافذ Gigabit',
-        ],
-    },
-    {
-        id: 2,
-        name: 'ASUS RT-AX55',
-        wifiType: 'Wi-Fi 6',
-        coverage: 'حتى 180 متر مربع',
-        price: 1500,
-        image: '/router2.jpg',
-        features: [
-            'Wi-Fi 6 (802.11ax)',
-            'AiProtection Pro',
-            'تقنية OFDMA',
-            'Dual Band',
-        ],
-    },
-    {
-        id: 3,
-        name: 'Xiaomi AX3000',
-        wifiType: 'Wi-Fi 6',
-        coverage: 'حتى 120 متر مربع',
-        price: 800,
-        image: '/router3.jpg',
-        features: [
-            'Wi-Fi 6',
-            'سعر اقتصادي',
-            'أداء ممتاز',
-            'Mesh Support',
-        ],
-    },
-    {
-        id: 4,
-        name: 'Netgear Nighthawk RAX40',
-        wifiType: 'Wi-Fi 6',
-        coverage: 'حتى 200 متر مربع',
-        price: 2000,
-        image: '/router4.jpg',
-        features: [
-            'Wi-Fi 6',
-            'تغطية واسعة جداً',
-            'أداء عالي',
-            'Beamforming+',
-        ],
-    },
-];
 
 export const features = [
     {

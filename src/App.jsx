@@ -3,7 +3,7 @@ import MainLayout from './components/Layout/MainLayout';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Packages from './pages/Packages';
-import Routers from './pages/Routers';
+import Offers from './pages/Offers';
 import Contact from './pages/Contact';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="services" element={<Services />} />
         <Route path="packages" element={<Packages />} />
-        <Route path="routers" element={<Routers />} />
+        <Route path="offers" element={<Offers />} />
         <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>
