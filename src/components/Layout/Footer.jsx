@@ -69,15 +69,15 @@ const Footer = () => {
                             <h3 className="text-2xl font-bold mb-4">تابعنا</h3>
                             <p className="text-gray-300 mb-6">تابعنا على وسائل التواصل الاجتماعي للحصول على آخر العروض والأخبار</p>
                             <div className="flex gap-4">
-                                <a href="#" className="w-12 h-12 gradient-blue rounded-xl flex items-center justify-center text-white text-xl hover:scale-110 transition-transform shadow-lg">
+                                <a href="https://www.facebook.com/share/1KsmeUYvJ5/" target='_blanck' className="w-12 h-12 gradient-blue rounded-xl flex items-center justify-center text-white text-xl hover:scale-110 transition-transform shadow-lg">
                                     <FacebookOutlined />
                                 </a>
-                                <a href="#" className="w-12 h-12 gradient-cyan rounded-xl flex items-center justify-center text-white text-xl hover:scale-110 transition-transform shadow-lg">
+                                {/* <a href="#" className="w-12 h-12 gradient-cyan rounded-xl flex items-center justify-center text-white text-xl hover:scale-110 transition-transform shadow-lg">
                                     <TwitterOutlined />
                                 </a>
                                 <a href="#" className="w-12 h-12 gradient-purple rounded-xl flex items-center justify-center text-white text-xl hover:scale-110 transition-transform shadow-lg">
                                     <InstagramOutlined />
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>
