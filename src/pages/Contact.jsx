@@ -212,7 +212,7 @@ const Contact = () => {
                     <div>
                       <p className="font-bold text-gray-800 mb-1">الهاتف</p>
                       <p className="text-gray-600 text-lg" dir="ltr">
-                        +201229890685
+                        +966509189741
                       </p>
                     </div>
                   </div>
