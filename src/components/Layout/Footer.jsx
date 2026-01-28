@@ -43,7 +43,7 @@ const Footer = () => {
                                     <div className="w-10 h-10 gradient-blue rounded-lg flex items-center justify-center">
                                         <PhoneOutlined className="text-white" />
                                     </div>
-                                    <span dir="ltr">0123456789</span>
+                                    <span dir="ltr">+966509189741</span>
                                 </div>
                                 <div className="flex items-center gap-3 p-3 rounded-lg hover:bg-white/10 transition-colors" style={{
                                     padding: '3px'
@@ -51,7 +51,7 @@ const Footer = () => {
                                     <div className="w-10 h-10 gradient-purple rounded-lg flex items-center justify-center">
                                         <MailOutlined className="text-white" />
                                     </div>
-                                    <span>info@isp-company.com</span>
+                                    <span>Mohamedmomdouh870@gmail.com</span>
                                 </div>
                                 <div className="flex items-center gap-3 p-3 rounded-lg hover:bg-white/10 transition-colors" style={{
                                     padding: '3px'
@@ -59,7 +59,7 @@ const Footer = () => {
                                     <div className="w-10 h-10 gradient-cyan rounded-lg flex items-center justify-center">
                                         <EnvironmentOutlined className="text-white" />
                                     </div>
-                                    <span>القاهرة، مصر</span>
+                                    <span>الرياض، المملكة العربية السعودية</span>
                                 </div>
                             </div>
                         </div>

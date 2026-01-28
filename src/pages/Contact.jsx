@@ -229,7 +229,7 @@ const Contact = () => {
                         البريد الإلكتروني
                       </p>
                       <p className="text-gray-600 text-lg">
-                        info@isp-company.com
+                        Mohamedmomdouh870@gmail.com
                       </p>
                     </div>
                   </div>
@@ -243,7 +243,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-bold text-gray-800 mb-1">العنوان</p>
-                      <p className="text-gray-600 text-lg">القاهرة، مصر</p>
+                      <p className="text-gray-600 text-lg">الرياض، المملكةالعربية السعودية</p>
                     </div>
                   </div>
                 </div>
@@ -267,7 +267,7 @@ const Contact = () => {
               </Card>
 
               {/* Map Placeholder */}
-              <Card
+             {/* <Card
                 className="glass-effect border-0 shadow-2xl rounded-3xl"
                 bodyStyle={{ padding: "32px" }}
               >
@@ -285,13 +285,13 @@ const Contact = () => {
                     <p className="text-gray-600">القاهرة، مصر</p>
                   </div>
                 </div>
-              </Card>
+              </Card> */}
             </div>
           </Col>
         </Row>
       </div>
     </div>
   );
-};
+}; 
 
 export default Contact;

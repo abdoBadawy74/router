@@ -28,7 +28,7 @@ const Packages = () => {
             dataIndex: 'price',
             key: 'price',
             render: (price) => (
-                <span className="font-bold text-2xl gradient-text">{price} جنيه</span>
+                <span className="font-bold text-2xl gradient-text">{price} ر.س</span>
             ),
         },
         {
@@ -55,7 +55,7 @@ const Packages = () => {
                     icon={<WhatsAppOutlined />}
                     className="btn-premium gradient-blue border-0 h-12 px-6 font-bold shadow-lg"
                 >
-                    <a href="https://wa.me/+201229890685" target="_blank" className="relative z-10">اشترك الآن </a>
+                    <a href="https://wa.me/+966509189741" target="_blank" className="relative z-10">اشترك الآن </a>
                 </Button>
             ),
         },

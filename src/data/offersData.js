@@ -9,7 +9,7 @@ export const offers = [
     uploadSpeed: "25 Mbps",
     freeRouter: "نعم",
     setupFee: "مجاني",
-    monthlyPrice: 287.5,
+    monthlyPrice: 239.0,
     badge: "عرض السرعة المضاعفة",
     notes: "شامل ضريبة القيمة المضافة 15%",
   },
