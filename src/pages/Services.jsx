@@ -16,7 +16,7 @@ const Services = () => {
             <div className="absolute top-20 left-10 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{ animationDelay: '1s' }}></div>
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div className="px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-16 animate-fade-in-up" style={{ margin: "10px 0" }}>
                     <div className="inline-block mb-4 px-4 py-2 bg-purple-100 rounded-full">
                         <span className="gradient-text text-sm font-semibold">⚡ خدماتنا</span>
@@ -53,42 +53,42 @@ const Services = () => {
                 </Row>
 
                 {/* Additional Info Section */}
-                <div className="mt-20 glass-effect rounded-3xl p-10 shadow-2xl animate-fade-in">
+                <div className="mt-20  rounded-3xl p-10  animate-fade-in">
                     <h2 className="text-3xl font-bold mb-8 text-center">
                         <span className="gradient-text">مميزات خدماتنا</span>
                     </h2>
                     <Row gutter={[24, 24]} style={{ margin: "20px 0" }}>
                         <Col xs={24} md={8}>
-                            <div className="text-center p-6 card-hover rounded-2xl p-6">
+                            <div className="text-center p-6 shadow card-hover rounded-2xl" style={{ padding: "10px 0" }}>
                                 <div className="mb-4 flex justify-center items-center">
                                     <div className="w-16 h-16 gradient-purple rounded-2xl flex items-center justify-center mx-auto shadow-lg">
                                         <CustomerServiceOutlined className="text-3xl text-white" />
                                     </div>
                                 </div>
                                 <h4 className="font-bold text-xl mb-3 text-gray-800">دعم فني 24/7</h4>
-                                <p className="text-gray-600">فريق دعم متاح على مدار الساعة</p>
+                                <p className="text-gray-600 mb-2">فريق دعم متاح على مدار الساعة</p>
                             </div>
                         </Col>
                         <Col xs={24} md={8}>
-                            <div className="text-center p-6 card-hover rounded-2xl p-6">
+                            <div className="text-center p-6 shadow card-hover rounded-2xl" style={{ padding: "10px 0" }}>
                                 <div className="mb-4 flex justify-center items-center">
                                     <div className="w-16 h-16 gradient-blue rounded-2xl flex items-center justify-center mx-auto shadow-lg">
                                         <WifiOutlined className="text-3xl text-white" />
                                     </div>
                                 </div>
                                 <h4 className="font-bold text-xl mb-3 text-gray-800">سرعة فائقة</h4>
-                                <p className="text-gray-600">اتصال سريع ومستقر</p>
+                                <p className="text-gray-600 mb-2">اتصال سريع ومستقر</p>
                             </div>
                         </Col>
                         <Col xs={24} md={8}>
-                            <div className="text-center p-6 card-hover rounded-2xl p-6">
+                            <div className="text-center p-6 shadow card-hover rounded-2xl" style={{ padding: "10px 0" }}>
                                 <div className="mb-4 flex justify-center items-center">
                                     <div className="w-16 h-16 gradient-cyan rounded-2xl flex items-center justify-center mx-auto shadow-lg">
                                         <SettingOutlined className="text-3xl text-white" />
                                     </div>
                                 </div>
                                 <h4 className="font-bold text-xl mb-3 text-gray-800">تركيب احترافي</h4>
-                                <p className="text-gray-600">فنيون محترفون لخدمتك</p>
+                                <p className="text-gray-600 mb-2">فنيون محترفون لخدمتك</p>
                             </div>
                         </Col>
                     </Row>

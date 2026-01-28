@@ -55,7 +55,7 @@ const Packages = () => {
                     icon={<WhatsAppOutlined />}
                     className="btn-premium gradient-blue border-0 h-12 px-6 font-bold shadow-lg"
                 >
-                     <a href="https://wa.me/+201229890685" target="_blank" className="relative z-10">اشترك الآن </a>
+                    <a href="https://wa.me/+201229890685" target="_blank" className="relative z-10">اشترك الآن </a>
                 </Button>
             ),
         },
@@ -67,7 +67,7 @@ const Packages = () => {
             <div className="absolute top-10 right-20 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
             <div className="absolute bottom-10 left-20 w-96 h-96 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{ animationDelay: '1.5s' }}></div>
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div className="px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-16 animate-fade-in-up">
                     <div className="inline-block mb-4 px-4 py-2 bg-blue-100 rounded-full">
                         <span className="gradient-text text-sm font-semibold">💰 باقاتنا</span>

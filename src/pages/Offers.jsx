@@ -29,6 +29,11 @@ const Offers = () => {
         return matchesType && matchesCompany;
     });
 
+    const handleOrder = () =>{
+        // open whatsapp link
+        window.open('https://wa.me/+966509189741', '_blank');
+    }
+
     const OfferCard = ({ offer }) => (
         <Badge.Ribbon text={offer.badge} color="red" hidden={!offer.badge}>
             <Card
@@ -92,7 +97,20 @@ const Offers = () => {
                             </div>
                         </Col>
                     </Row>
+
+                 
+
                 </div>
+
+                {
+                    offer.freeBooster && (
+                        <Tag color="green" className="px-3 py-1 rounded-full font-bold" dir='rtl'>
+                           {`${offer.freeBooster}`}
+                        </Tag>
+                    )
+                }
+
+                
 
                 <div className="flex flex-col gap-1 items-start mt-4">
                     <div className="flex items-baseline gap-1">
@@ -106,7 +124,7 @@ const Offers = () => {
                     )}
                 </div>
 
-                <button className="w-full mt-6 py-3 gradient-primary text-white rounded-xl font-bold shadow-lg hover:opacity-90 transition-opacity">
+                <button onClick={handleOrder} className="w-full mt-6 py-3 gradient-primary text-white rounded-xl font-bold shadow-lg hover:opacity-90 transition-opacity">
                     اطلب الآن
                 </button>
             </Card>
@@ -114,20 +132,20 @@ const Offers = () => {
     );
 
     return (
-        <div className="min-h-screen pt-20 pb-12 bg-gray-50" dir="rtl">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen pt-20 bg-gray-50" dir="rtl">
+            <div className="px-4 sm:px-6 lg:px-8" style={{padding:"10px 0 0"}}>
                 {/* Header */}
                 <div className="text-center mb-12 animate-fade-in-up">
                     <Title level={1} className="!text-4xl md:!text-5xl !font-black !mb-4">
                         عروض شركات الاتصالات <span className="gradient-text">في السعودية</span>
                     </Title>
-                    <Text className="text-lg text-gray-500 max-w-2xl mx-auto block leading-relaxed">
+                    <Text className="text-lg text-gray-500 mx-auto block leading-relaxed">
                         قارن بين أفضل باقات الإنترنت المنزلي (فايبر و 5G) من جميع المزودين في المملكة واختر ما يناسب احتياجك.
                     </Text>
                 </div>
 
                 {/* Filters */}
-                <div className="glass-effect p-6 rounded-3xl shadow-sm mb-12 animate-fade-in">
+                <div className="glass-effect rounded-l-lg shadow-sm mb-12 animate-fade-in" style={{padding:"0 10px"}}>
                     <Row gutter={[24, 24]} align="middle">
                         <Col xs={24} md={12}>
                             <Tabs
@@ -182,13 +200,19 @@ const Offers = () => {
                 )}
 
                 {/* Info Section */}
-                <div className="mt-20 glass-dark p-10 rounded-[3rem] text-white overflow-hidden relative">
+                <div className="mt-20 glass-dark text-white overflow-hidden relative" style={{ padding: '40px'}}>
                     <div className="relative z-10">
                         <Title level={2} className="!text-white !font-bold mb-6">هل تحتاج إلى مساعدة في الاختيار؟</Title>
                         <Text className="text-gray-300 text-lg block mb-8 max-w-xl">
                             فريقنا التقني مستعد لمساعدتك في فحص التغطية في موقعك وتوجيهك لأفضل مزود خدمة متاح في حيك.
                         </Text>
-                        <button className="bg-white text-purple-600 px-8 py-3 rounded-xl font-bold hover:bg-gray-100 transition-colors">
+                        <button className="bg-white text-purple-600 rounded-xl font-bold hover:bg-gray-100 transition-colors hover:shadow-lg"
+                            style={{
+                                padding: '12px 24px',
+                                boxShadow: '0 4px 14px rgba(255, 255, 255, 0.4)',
+                                cursor: 'pointer',
+                            }}
+                        >
                             تواصل مع مستشار تقني
                         </button>
                     </div>

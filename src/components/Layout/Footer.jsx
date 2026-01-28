@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="absolute bottom-10 right-10 w-80 h-80 bg-blue-600 rounded-full mix-blend-overlay filter blur-3xl opacity-20"></div>
 
                 {/* Content Container with max-width */}
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
+                <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
                         {/* About Section */}
                         <div className="space-y-6">
