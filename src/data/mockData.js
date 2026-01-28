@@ -33,6 +33,7 @@ export const packages = [
         name: 'سلام 140 5G HomeFi',
         speed: '140 Mbps',
         price: 239,
+        company:"Salam",
         features: [
             'سرعة تحميل 25 ميجابت',
             'مناسبة للاستخدام المنزلي',
@@ -45,6 +46,7 @@ export const packages = [
         name: 'بيتي فايبر بيسك',
         speed: '300 Mbps',
         price: 287.5,
+         company:"STC",
         features: [
             'سرعة تحميل 300 ميجابت',
             'دعم فني على مدار الساعة',
@@ -58,6 +60,7 @@ export const packages = [
         name: 'هوم فايبر مفوتر 200',
         speed: '200 Mbps',
         price: 230,
+         company:"Mobily",
         features: [
             'سرعة تحميل 50 ميجابت',
             'مناسبة للمكاتب الصغيرة',
@@ -71,6 +74,7 @@ export const packages = [
         name: '5G المنزلية الاساسية',
         speed: '200 Mbps',
         price: 239,
+         company:"Zain",
         features: [
             'سرعة تحميل 25 ميجابت',
             'مناسبة للاستخدام المنزلي',
