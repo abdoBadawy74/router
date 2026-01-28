@@ -37,7 +37,7 @@ const Navbar = () => {
 
     return (
         <nav className="glass-effect shadow-lg sticky top-0 z-50 border-b border-white/20">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-20">
                     {/* Logo with Gradient */}
                     <div className="flex items-center">

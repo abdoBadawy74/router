@@ -6,8 +6,8 @@ const { Footer: AntFooter } = Layout;
 const Footer = () => {
     return (
         <AntFooter className="relative overflow-hidden p-0 w-full" style={{
-            margin: '20px 0 0',
-            padding: '20px 0 0'
+            // margin: '20px 0 0',
+            padding: '0'
         }}>
             {/* Gradient Background - Full Width */}
             <div className="w-full bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900 text-white relative " style={{

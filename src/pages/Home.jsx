@@ -66,7 +66,9 @@ const Home = () => {
 
             {/* Features Section with Glassmorphism */}
             <section className="py-32 relative">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="px-4 sm:px-6 lg:px-8" style={{
+                    padding: '20px'
+                }}>
                     <div className="text-center mb-16 animate-fade-in-up" style={{
                         margin: '20px 0'
                     }}>
@@ -98,7 +100,7 @@ const Home = () => {
 
             {/* About Section with Image */}
             <section className="py-32 bg-gradient-to-br from-gray-50 to-gray-100 md:pr-20" style={{ margin: '20px 0' }}>
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="px-4 sm:px-6 lg:px-8" style={{ padding: '20px' }}>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="animate-slide-in-right">
                             <div className="inline-block mb-4 px-4 py-2 bg-purple-100 rounded-full">
@@ -145,7 +147,7 @@ const Home = () => {
                             </Link>
                         </div>
 
-                        <div className="relative animate-fade-in">
+                        <div className="relative animate-fade-in" style={{ padding: '20px' }}>
                             <div className="absolute -top-8 -right-8 w-full h-full gradient-cyan rounded-3xl opacity-20 blur-2xl"></div>
                             <div className="relative glass-effect rounded-3xl p-12 shadow-2xl">
                                 <div className="text-center">
@@ -167,19 +169,24 @@ const Home = () => {
 
             {/* CTA Section with Modern Gradient */}
             <section className="relative py-32 overflow-hidden" style={{
-                margin: '20px 0',
+                margin: '20px 0 0',
                 padding: '20px 0'
             }}>
                 <div className="absolute inset-0 gradient-primary"></div>
                 <div className="absolute top-10 left-10 w-64 h-64 bg-white rounded-full mix-blend-overlay filter blur-3xl opacity-20 animate-float"></div>
                 <div className="absolute bottom-10 right-10 w-80 h-80 bg-pink-300 rounded-full mix-blend-overlay filter blur-3xl opacity-20 animate-float" style={{ animationDelay: '1.5s' }}></div>
 
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+                <div className="px-4 sm:px-6 lg:px-8 text-center relative z-10">
                     <div className="animate-fade-in-up">
                         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">
                             جاهز للبدء في تجربة إنترنت أسرع؟
                         </h2>
-                        <p className="text-xl mb-10 text-purple-100 max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-xl mb-10 text-purple-100 mx-auto leading-relaxed"
+                            style={{
+                                marginTop: '20px',
+                                marginBottom: '20px'
+                            }}
+                        >
                             اشترك الآن واحصل على أفضل باقات الإنترنت بأسعار تنافسية مع تركيب مجاني
                         </p>
 
