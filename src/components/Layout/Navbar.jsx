@@ -2,6 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, Drawer, Button } from 'antd';
 import { MenuOutlined, HomeOutlined, AppstoreOutlined, ShoppingOutlined, WifiOutlined, ContactsOutlined } from '@ant-design/icons';
 import { useState } from 'react';
+import logo from '../../assets/logo.png';
 
 const Navbar = () => {
     const [visible, setVisible] = useState(false);
@@ -42,13 +43,7 @@ const Navbar = () => {
                     {/* Logo with Gradient */}
                     <div className="flex items-center">
                         <Link to="/" className="flex items-center gap-3 group">
-                            <div className="w-12 h-12 gradient-primary rounded-xl flex items-center justify-center shadow-lg transform group-hover:rotate-6 transition-transform">
-                                <WifiOutlined className="text-2xl text-white" />
-                            </div>
-                            <div>
-                                <span className="text-2xl font-bold gradient-text">شركة الإنترنت</span>
-                                <p className="text-xs text-gray-500">الألياف الضوئية</p>
-                            </div>
+                            <img src={logo} alt="Logo" className="w-50 h-50 object-contain" />
                         </Link>
                     </div>
 

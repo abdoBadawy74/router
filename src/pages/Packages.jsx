@@ -198,7 +198,7 @@ const Packages = () => {
                 className="btn- premium gradient-blue border-0 h-14 text-lg font-bold shadow-lg"
               >
                 <a
-                  href="https://wa.me/+201229890685"
+                  href="https://wa.me/+966509189741"
                   target="_blank"
                   className="relative z-10"
                 >
