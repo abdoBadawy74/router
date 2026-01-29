@@ -7,6 +7,7 @@ import {
   WhatsAppOutlined,
   EnvironmentOutlined,
 } from "@ant-design/icons";
+import { Helmet } from "react-helmet-async";
 
 const { TextArea } = Input;
 
@@ -55,6 +56,12 @@ const Contact = () => {
 
   return (
     <div className="py-20 min-h-screen relative overflow-hidden">
+      <Helmet>
+        <title>تواصل معنا | حلول الإنترنت والألياف الضوئية</title>
+        <meta name="description" content="تواصل مع فريقنا التقني للحصول على استشارة مجانية حول خدمات الإنترنت، فحص التغطية، وطلب تركيب الألياف الضوئية في الرياض والمملكة." />
+        <meta property="og:title" content="تواصل معنا - فريق الدعم الفني والمبيعات" />
+        <meta property="og:description" content="نحن هنا لمساعدتك في الحصول على أفضل تجربة إنترنت. تواصل معنا عبر الهاتف أو واتساب." />
+      </Helmet>
       {/* Background Decorations */}
       <div className="absolute top-10 right-10 w-72 h-72 bg-green-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
       <div
@@ -267,7 +274,7 @@ const Contact = () => {
               </Card>
 
               {/* Map Placeholder */}
-             {/* <Card
+              {/* <Card
                 className="glass-effect border-0 shadow-2xl rounded-3xl"
                 bodyStyle={{ padding: "32px" }}
               >
@@ -292,6 +299,6 @@ const Contact = () => {
       </div>
     </div>
   );
-}; 
+};
 
 export default Contact;

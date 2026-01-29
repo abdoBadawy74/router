@@ -1,5 +1,6 @@
 import { Card, Row, Col } from 'antd';
 import { WifiOutlined, SettingOutlined, HomeOutlined, CustomerServiceOutlined } from '@ant-design/icons';
+import { Helmet } from 'react-helmet-async';
 import { services } from '../data/mockData';
 
 const iconMap = {
@@ -12,6 +13,12 @@ const iconMap = {
 const Services = () => {
     return (
         <div className="py-30 min-h-screen relative overflow-hidden text-center">
+            <Helmet>
+                <title>خدماتنا | حلول الإنترنت والألياف الضوئية</title>
+                <meta name="description" content="تعرف على خدماتنا المتميزة: تركيب الألياف الضوئية، صيانة الرواترات، تمديد الشبكات المنزلية، ودعم فني متخصص على مدار الساعة." />
+                <meta property="og:title" content="خدماتنا المتميزة - حلول الإنترنت والاتصالات" />
+                <meta property="og:description" content="نقدم مجموعة شاملة من خدمات الإنترنت والألياف الضوئية لتلبية جميع احتياجاتك." />
+            </Helmet>
             {/* Background Decorations */}
             <div className="absolute top-20 left-10 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{ animationDelay: '1s' }}></div>

@@ -11,6 +11,7 @@ import {
     WalletOutlined,
     TagOutlined
 } from '@ant-design/icons';
+import { Helmet } from 'react-helmet-async';
 import { offers, companies } from '../data/offersData';
 
 const { Title, Text } = Typography;
@@ -29,7 +30,7 @@ const Offers = () => {
         return matchesType && matchesCompany;
     });
 
-    const handleOrder = () =>{
+    const handleOrder = () => {
         // open whatsapp link
         window.open('https://wa.me/+966509189741', '_blank');
     }
@@ -98,19 +99,19 @@ const Offers = () => {
                         </Col>
                     </Row>
 
-                 
+
 
                 </div>
 
                 {
                     offer.freeBooster && (
                         <Tag color="green" className="px-3 py-1 rounded-full font-bold" dir='rtl'>
-                           {`${offer.freeBooster}`}
+                            {`${offer.freeBooster}`}
                         </Tag>
                     )
                 }
 
-                
+
 
                 <div className="flex flex-col gap-1 items-start mt-4">
                     <div className="flex items-baseline gap-1">
@@ -133,7 +134,13 @@ const Offers = () => {
 
     return (
         <div className="min-h-screen pt-20 bg-gray-50" dir="rtl">
-            <div className="px-4 sm:px-6 lg:px-8" style={{padding:"10px 0 0"}}>
+            <Helmet>
+                <title>عروض شركات الاتصالات | السعودية</title>
+                <meta name="description" content="قارن بين أحدث عروض شركات الاتصالات في السعودية (STC, Zain, Mobily). باقات فايبر و 5G بأسعار حصرية وتوفير كبير." />
+                <meta property="og:title" content="عروض شركات الاتصالات السعودية - فايبر و 5G" />
+                <meta property="og:description" content="البحث عن أفضل عروض الإنترنت في المملكة أصبح سهلاً. قارن واشترك الآن." />
+            </Helmet>
+            <div className="px-4 sm:px-6 lg:px-8" style={{ padding: "10px 0 0" }}>
                 {/* Header */}
                 <div className="text-center mb-12 animate-fade-in-up">
                     <Title level={1} className="!text-4xl md:!text-5xl !font-black !mb-4">
@@ -145,7 +152,7 @@ const Offers = () => {
                 </div>
 
                 {/* Filters */}
-                <div className="glass-effect rounded-l-lg shadow-sm mb-12 animate-fade-in" style={{padding:"0 10px"}}>
+                <div className="glass-effect rounded-l-lg shadow-sm mb-12 animate-fade-in" style={{ padding: "0 10px" }}>
                     <Row gutter={[24, 24]} align="middle">
                         <Col xs={24} md={12}>
                             <Tabs
@@ -200,7 +207,7 @@ const Offers = () => {
                 )}
 
                 {/* Info Section */}
-                <div className="mt-20 glass-dark text-white overflow-hidden relative" style={{ padding: '40px'}}>
+                <div className="mt-20 glass-dark text-white overflow-hidden relative" style={{ padding: '40px' }}>
                     <div className="relative z-10">
                         <Title level={2} className="!text-white !font-bold mb-6">هل تحتاج إلى مساعدة في الاختيار؟</Title>
                         <Text className="text-gray-300 text-lg block mb-8 max-w-xl">

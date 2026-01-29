@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://isp-router-website.netlify.app/sitemap.xml

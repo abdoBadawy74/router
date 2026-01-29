@@ -1,6 +1,7 @@
 import { Button } from 'antd';
 import { RocketOutlined, CheckCircleOutlined, CustomerServiceOutlined, ThunderboltOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { features } from '../data/mockData';
 
 const iconMap = {
@@ -13,6 +14,38 @@ const iconMap = {
 const Home = () => {
     return (
         <div className="overflow-hidden">
+            <Helmet>
+                <title>حلول الإنترنت والألياف الضوئية - محمد ممدوح | الرئيسية</title>
+                <meta name="description" content="استمتع بأسرع خدمات الإنترنت والألياف الضوئية في المنطقة. نقدم حلولاً متكاملة للإنترنت المنزلي والمكتبي مع أحدث أجهزة الرواتر." />
+                <meta property="og:title" content="حلول الإنترنت والألياف الضوئية - محمد ممدوح" />
+                <meta property="og:description" content="أفضل خدمات الإنترنت والألياف الضوئية والرواترات عالية السرعة في المنطقة." />
+                <meta property="og:type" content="website" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="حلول الإنترنت والألياف الضوئية - محمد ممدوح" />
+                <meta name="twitter:description" content="أفضل خدمات الإنترنت والألياف الضوئية والرواترات عالية السرعة في المنطقة." />
+                <script type="application/ld+json">
+                    {`
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "name": "حلول الإنترنت والألياف الضوئية - محمد ممدوح",
+                            "description": "شركة رائدة في تقديم خدمات الإنترنت والألياف الضوئية والرواترات عالية السرعة في السعودية.",
+                            "url": "https://isp-router-website.netlify.app/",
+                            "telephone": "+966509189741",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressLocality": "الرياض",
+                                "addressCountry": "SA"
+                            },
+                            "service": [
+                                "Internet Installation",
+                                "Fiber Optic Installation",
+                                "Router Maintenance"
+                            ]
+                        }
+                    `}
+                </script>
+            </Helmet>
             {/* Hero Section with Modern Gradient */}
             <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden mb-32">
                 {/* Animated Background Gradient */}

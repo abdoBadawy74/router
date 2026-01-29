@@ -1,5 +1,6 @@
 import { Table, Button, Tag, Card } from "antd";
 import { CheckOutlined, WhatsAppOutlined, StarFilled } from "@ant-design/icons";
+import { Helmet } from "react-helmet-async";
 import { packages } from "../data/mockData";
 
 const Packages = () => {
@@ -86,6 +87,12 @@ const Packages = () => {
 
   return (
     <div className="py-20 min-h-screen relative overflow-hidden">
+      <Helmet>
+        <title>باقات الإنترنت والأسعار | حلول الألياف الضوئية</title>
+        <meta name="description" content="الباقات الحصرية والأسعار المميزة لخدمات الإنترنت في السعودية (STC, Mobily, Zain, Salam). اختر الباقة المناسبة لك واستمتع بالسرعة." />
+        <meta property="og:title" content="باقات الإنترنت المميزة والأسعار" />
+        <meta property="og:description" content="استكشف أفضل باقات الإنترنت المنزلي والألياف الضوئية بأسعار تنافسية." />
+      </Helmet>
       {/* Background Decorations */}
       <div className="absolute top-10 right-20 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float"></div>
       <div
@@ -130,9 +137,8 @@ const Packages = () => {
           {packages.map((pkg, index) => (
             <Card
               key={pkg.id}
-              className={`card-hover glass-effect border-0 shadow-2xl rounded-3xl animate-fade-in-up ${
-                pkg.popular ? "ring-4 ring-yellow-400" : ""
-              }`}
+              className={`card-hover glass-effect border-0 shadow-2xl rounded-3xl animate-fade-in-up ${pkg.popular ? "ring-4 ring-yellow-400" : ""
+                }`}
               style={{ animationDelay: `${index * 0.1}s` }}
               bodyStyle={{ padding: "32px" }}
             >
@@ -158,7 +164,7 @@ const Packages = () => {
                       color="green"
                       className="px-3 py-1 rounded-full font-bold"
                       dir="rtl"
-                      style={{fontSize:"20px", margin:"10px 0 "}}
+                      style={{ fontSize: "20px", margin: "10px 0 " }}
                     >
                       {`${pkg.company}`}
                     </Tag>
