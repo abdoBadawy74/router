@@ -110,10 +110,7 @@ const Packages = () => {
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="gradient-text">باقات الإنترنت</span>
           </h1>
-          <p
-            className="text-xl text-gray-600 mx-auto"
-            style={{ margin: "20px 0" }}
-          >
+          <p className="text-xl text-gray-600 mx-auto mb-8">
             اختر الباقة المناسبة لاحتياجاتك بأفضل الأسعار
           </p>
         </div>
@@ -137,10 +134,8 @@ const Packages = () => {
           {packages.map((pkg, index) => (
             <Card
               key={pkg.id}
-              className={`card-hover glass-effect border-0 shadow-2xl rounded-3xl animate-fade-in-up ${pkg.popular ? "ring-4 ring-yellow-400" : ""
-                }`}
+              className={`card-hover glass-effect border-0 shadow-2xl rounded-3xl animate-fade-in-up ${pkg.popular ? "ring-4 ring-yellow-400" : ""}`}
               style={{ animationDelay: `${index * 0.1}s` }}
-              bodyStyle={{ padding: "32px" }}
             >
               {pkg.popular && (
                 <div className="text-center mb-4">
@@ -162,9 +157,8 @@ const Packages = () => {
                   <div className="text-center mb-4">
                     <Tag
                       color="green"
-                      className="px-3 py-1 rounded-full font-bold"
+                      className="px-3 py-1 rounded-full font-bold text-xl my-4"
                       dir="rtl"
-                      style={{ fontSize: "20px", margin: "10px 0 " }}
                     >
                       {`${pkg.company}`}
                     </Tag>

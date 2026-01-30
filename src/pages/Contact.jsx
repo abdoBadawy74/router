@@ -76,16 +76,10 @@ const Contact = () => {
               📞 اتصل بنا
             </span>
           </div>
-          <h1
-            className="text-5xl md:text-6xl font-bold mb-6"
-            style={{ margin: "20px 0" }}
-          >
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="gradient-text">تواصل معنا</span>
           </h1>
-          <p
-            className="text-xl text-gray-600 mx-auto"
-            style={{ margin: "20px 0" }}
-          >
+          <p className="text-xl text-gray-600 mx-auto mb-10">
             نحن هنا للإجابة على جميع استفساراتك ومساعدتك
           </p>
         </div>
@@ -94,8 +88,7 @@ const Contact = () => {
           {/* Contact Form */}
           <Col xs={24} lg={12}>
             <Card
-              className="glass-effect border-0 shadow-2xl rounded-3xl animate-fade-in-up"
-              bodyStyle={{ padding: "40px" }}
+              className="glass-effect border-0 shadow-2xl rounded-3xl animate-fade-in-up p-10"
             >
               <h2 className="text-3xl font-bold mb-8 gradient-text">
                 أرسل لنا رسالة ✉️
@@ -199,13 +192,9 @@ const Contact = () => {
               style={{ animationDelay: "0.2s" }}
             >
               <Card
-                className="glass-effect border-0 shadow-2xl rounded-3xl"
-                bodyStyle={{ padding: "40px" }}
+                className="glass-effect border-0 shadow-2xl rounded-3xl p-10"
               >
-                <h2
-                  className="text-3xl font-bold mb-20 gradient-text "
-                  style={{ margin: "20px 0" }}
-                >
+                <h2 className="text-3xl font-bold mb-8 gradient-text">
                   معلومات التواصل 📱
                 </h2>
                 <div className="space-y-6">

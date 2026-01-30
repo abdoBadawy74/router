@@ -43,7 +43,15 @@ const Navbar = () => {
                     {/* Logo with Gradient */}
                     <div className="flex items-center">
                         <Link to="/" className="flex items-center gap-3 group">
-                            <img src={logo} alt="محمد ممدوح - حلول الإنترنت والألياف الضوئية" className="w-50 h-50 object-contain" />
+                            <img
+                                src={logo}
+                                alt="محمد ممدوح"
+                                className="h-12 w-auto object-contain"
+                                fetchpriority="high"
+                                loading="eager"
+                                width="200"
+                                height="48"
+                            />
                         </Link>
                     </div>
 

@@ -38,10 +38,8 @@ const Offers = () => {
     const OfferCard = ({ offer }) => (
         <Badge.Ribbon text={offer.badge} color="red" hidden={!offer.badge}>
             <Card
-                className="card-hover overflow-hidden rounded-2xl border-white/20 shadow-xl"
+                className="card-hover overflow-hidden rounded-2xl border-white/20 shadow-xl p-6 bg-white/90"
                 hoverable
-                style={{ height: '100%', background: 'rgba(255, 255, 255, 0.9)' }}
-                bodyStyle={{ padding: '24px' }}
             >
                 <div className="flex justify-between items-start mb-4">
                     <div>
@@ -140,7 +138,7 @@ const Offers = () => {
                 <meta property="og:title" content="عروض شركات الاتصالات السعودية - فايبر و 5G" />
                 <meta property="og:description" content="البحث عن أفضل عروض الإنترنت في المملكة أصبح سهلاً. قارن واشترك الآن." />
             </Helmet>
-            <div className="px-4 sm:px-6 lg:px-8" style={{ padding: "10px 0 0" }}>
+            <div className="px-4 sm:px-6 lg:px-8 mt-4">
                 {/* Header */}
                 <div className="text-center mb-12 animate-fade-in-up">
                     <Title level={1} className="!text-4xl md:!text-5xl !font-black !mb-4">
@@ -152,7 +150,7 @@ const Offers = () => {
                 </div>
 
                 {/* Filters */}
-                <div className="glass-effect rounded-l-lg shadow-sm mb-12 animate-fade-in" style={{ padding: "0 10px" }}>
+                <div className="glass-effect rounded-l-lg shadow-sm mb-12 animate-fade-in px-4">
                     <Row gutter={[24, 24]} align="middle">
                         <Col xs={24} md={12}>
                             <Tabs

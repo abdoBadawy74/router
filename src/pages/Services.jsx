@@ -24,26 +24,25 @@ const Services = () => {
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{ animationDelay: '1s' }}></div>
 
             <div className="px-4 sm:px-6 lg:px-8 relative z-10">
-                <div className="text-center mb-16 animate-fade-in-up" style={{ margin: "10px 0" }}>
+                <div className="text-center mb-16 animate-fade-in-up">
                     <div className="inline-block mb-4 px-4 py-2 bg-purple-100 rounded-full">
                         <span className="gradient-text text-sm font-semibold">⚡ خدماتنا</span>
                     </div>
                     <h1 className="text-5xl md:text-6xl font-bold mb-6">
                         <span className="gradient-text">خدماتنا المتميزة</span>
                     </h1>
-                    <p className="text-xl text-gray-600 mx-auto text-center">
+                    <p className="text-xl text-gray-600 mx-auto">
                         نقدم مجموعة شاملة من الخدمات لتلبية جميع احتياجاتك من الإنترنت والاتصالات
                     </p>
                 </div>
 
-                <Row gutter={[32, 32]} style={{ margin: "20px 0" }}>
+                <Row gutter={[32, 32]} className="my-8">
                     {services.map((service, index) => (
                         <Col xs={24} sm={12} lg={6} key={service.id}>
                             <Card
                                 hoverable
-                                className="card-hover glass-effect border-0 shadow-xl rounded-2xl h-full animate-fade-in-up"
+                                className="card-hover glass-effect border-0 shadow-xl rounded-2xl h-full animate-fade-in-up p-8"
                                 style={{ animationDelay: `${index * 0.1}s` }}
-                                bodyStyle={{ padding: '32px' }}
                             >
                                 <div className="text-center">
                                     <div className="mb-6 flex justify-center">
