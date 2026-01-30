@@ -42,15 +42,14 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo with Gradient */}
                     <div className="flex items-center">
-                        <Link to="/" className="flex items-center gap-3 group">
+                        <Link to="/" className="flex items-center gap-3 group justify-start">
                             <img
                                 src={logo}
                                 alt="محمد ممدوح"
-                                className="h-12 w-auto object-contain"
                                 fetchpriority="high"
                                 loading="eager"
                                 width="200"
-                                height="48"
+                                height="50"
                             />
                         </Link>
                     </div>
