@@ -30,13 +30,13 @@ export const services = [
 export const packages = [
     {
         id: 1,
-        name: 'سلام 140 5G HomeFi',
-        speed: '140 Mbps',
-        price: 239,
+        name: 'سلام 5G HomeFi Max',
+        speed: '100 Mbps',
+        price: 199,
         company:"Salam",
         features: [
             'سرعة تحميل 25 ميجابت',
-            'مناسبة للاستخدام المنزلي',
+            'سرعة وثبات بدون تقطيع',
             'دعم فني مجاني',
             'تركيب مجاني',
         ],
