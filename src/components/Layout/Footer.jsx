@@ -87,11 +87,9 @@ const Footer = () => {
                             <p className="flex items-center gap-2">
                                 &copy; 2026 جميع الحقوق محفوظة - شركة الإنترنت والألياف الضوئية
                             </p>
+                            
                             <p className="flex items-center gap-2">
-                                صنع بـ <HeartFilled className="text-red-500" /> في مصر
-                            </p>
-                            <p className="flex items-center gap-2">
-                                تصميم وتطوير بواسطة <a href="wa.me/+201229890685" target="_blank" className="text-blue-400 hover:text-blue-300">م.عبدالرحمن بدوي</a>
+                               <HeartFilled className="text-red-500" /> تصميم وتطوير بواسطة <a href="https://wa.me/+201229890685" target="_blank" className="text-blue-400 hover:text-blue-300">م.عبدالرحمن بدوي</a>
                             </p>
                         </div>
                     </div>
